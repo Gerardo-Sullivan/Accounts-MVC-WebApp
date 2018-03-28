@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp_HelloWorld
+﻿namespace ConsoleApp_HelloWorld
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Account newAccount = new Account("Gerardo", "password", 23, "New Zealand");
+
+            var test = newAccount.Purchases;
+
+            newAccount.AddPurchase(new Purchase(newAccount.AccountID, "Car"));
+            newAccount.AddPurchase(new Purchase(newAccount.AccountID, "Phone"));
+            newAccount.PrintInfo();
         }
     }
 }
