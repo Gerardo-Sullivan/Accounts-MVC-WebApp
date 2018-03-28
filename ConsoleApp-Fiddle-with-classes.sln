@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp-Accounts", "Cons
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Account-Database", "Account-Database\Account-Database.sqlproj", "{AE428F0A-A1E6-4372-895E-A03A3FCE874D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79B32D4A-E84E-4FB9-B08C-4C9BE60D2B09}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Gerardo\_currentProject - Web App.txt = ..\..\..\Gerardo\_currentProject - Web App.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
